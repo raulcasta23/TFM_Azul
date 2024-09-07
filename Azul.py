@@ -210,6 +210,7 @@ class AzulGame:
 
         return AzulState( tiles, initial_factories, initial_player_boards, initial_center, initial_bag, initial_discard, initial_player, board_pattern)
 
+
     @staticmethod
     def draw_tiles(state):
         """
