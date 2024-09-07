@@ -5,6 +5,7 @@ import copy
 import csv
 from Azul import AzulState, AzulGame
 
+
 class MCTSNode:
     def __init__(self, state, game, parent=None, move =None):
         self.state = state
